@@ -1,0 +1,91 @@
+.main-header {
+  display: inline-flex;
+  margin-bottom: 25px;
+}
+#rightsec{
+  margin-bottom:100px;
+  height:600px;
+}
+
+.main-header > div {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-header > div p {
+  display: flex;
+  align-items: flex-end;
+  color: var(--color-secondary);
+}
+
+.main-title {
+  width: 100%;
+  font-size: var(--font-l);
+  font-weight: 600;
+  margin-bottom: 5px;
+  text-transform: uppercase;
+  letter-spacing: 1px;
+  overflow-y: wrap;
+}
+
+.company-logo {
+  max-width: 75px;
+  min-width: 75px;
+  margin-right: 25px;
+  overflow: hidden;
+}
+
+.company-logo img {
+  width: 100%;
+  object-fit: contain;
+}
+
+.main-item {
+  display: flex;
+  height: 100%;
+  border-bottom: 1px solid var(--color-secondary-light);
+}
+
+.first {
+  padding-bottom: 25px;
+}
+
+.last {
+  padding-bottom: 0;
+  margin-bottom: 0;
+  border: none;
+}
+#buysell{
+  /* padding-left: 40px; */
+  display:inline-flex;
+  position:absolute;
+  bottom:0;
+  
+}
+#buysell > #bs{
+  padding:19px;
+
+}
+#portfolio{
+  margin-left: 10px;
+  padding: 10px;
+  
+}
+#portfolio > form{
+  display:inline-flex;
+}
+
+#portfolio > #amm{
+  display:inline-flex; 
+}
+
+#main{
+  width: 100%;
+  
+}
+
+@media screen and (max-width: 1124px) {
+  .first {
+    flex-direction: column;
+  }
+}

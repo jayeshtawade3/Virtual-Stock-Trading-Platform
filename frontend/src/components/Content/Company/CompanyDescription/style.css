@@ -1,0 +1,47 @@
+.company-description--wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.description--wrapper {
+  position: relative;
+  width: 100%;
+  color: var(--color-secondary);
+  text-align: left;
+}
+
+.description {
+  display: flex;
+  font-size: var(--font-S);
+  line-height: 150%;
+  max-height: 13.25rem;
+  overflow-y: auto;
+  padding-right: 10px;
+}
+
+.description::-webkit-scrollbar {
+  width: 10px;
+}
+
+.description::-webkit-scrollbar-track {
+  background: hsl(0, 0%, 92%);
+}
+
+.description::-webkit-scrollbar-thumb {
+  border-radius: 15px;
+  background: var(--color-secondary-light);
+}
+
+.no-description {
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.no-description p {
+  color: var(--color-secondary);
+  font-size: var(--font-S);
+  text-align: center;
+}

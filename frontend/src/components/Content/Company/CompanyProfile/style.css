@@ -1,0 +1,31 @@
+.company-profile {
+  width: 100%;
+  max-width: 375px;
+}
+
+.profile__inner {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.industry {
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+.profile-item {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  margin-bottom: 5px;
+}
+
+.profile-item > :first-child {
+  min-width: 150px;
+  color: var(--color-secondary);
+}
+
+.profile-item > :nth-child(2) {
+  width: 100%;
+}

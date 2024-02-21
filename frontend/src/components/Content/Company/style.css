@@ -1,0 +1,19 @@
+#company-section {
+  width: 100%;
+  padding: 50px 0;
+}
+
+#company-section h3 {
+  font-size: var(--font-M);
+  margin-bottom: 2rem;
+}
+
+#company-section > div {
+  gap: 50px;
+}
+
+@media screen and (min-width: 800px) {
+  #company-section > div {
+    gap: 75px;
+  }
+}

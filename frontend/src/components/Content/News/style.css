@@ -1,0 +1,18 @@
+#news {
+  padding: 50px 0;
+}
+
+#news h3 {
+  font-size: var(--font-M);
+  margin-bottom: 35px;
+}
+
+#empty-news {
+  display: flex;
+  justify-content: flex-start;
+  padding: 25px 0;
+}
+
+#empty-news p {
+  text-align: center;
+}
